@@ -1,9 +1,72 @@
+<style>
+    body {
+    background-color: whitesmoke;
+}
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+h1 {
+    color: white;
+}
+#burgerpic {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+#order-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+
+}
+.order-row {
+    justify-content: center;
+    text-align: center;
+}
+
+#burger-div {
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+}
+
+#new-burger {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#eaten {
+    color: grey;
+    padding: 5px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: rgb(128, 79, 0);
+}
+
+</style>
+
 
     <div class="row" id="order-div">
         <div class="col">
             <div class="row order-row">
                 <h2>Place an order:</h2>
+                  
             </div>
+             <img id="burgerpic" src="../public/assets/img/burger giant.png" alt="Burger"  height="80" width="80">
             <div class="row order-row">
                 <form id="addburger" class="create-form">
 
