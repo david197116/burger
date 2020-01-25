@@ -6,11 +6,12 @@ if(process.env.JAWSBD_URL){
     connection = mysql.createConnection({
       host: "localhost",
       user: "root",
-      password: process.env.DB_PASS,
-      database: "burgers_db"
+      password: "hacktheplanet",
+      database: "todoagain_db"
 
-    })
+    });
   }
+
 
 var connection = mysql.createConnection({
   host: "localhost",
